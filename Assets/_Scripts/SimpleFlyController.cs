@@ -4,10 +4,12 @@ using System.Collections;
 public class SimpleFlyController : MonoBehaviour {
 
 	public Transform weakness;
+	public GameObject deathPlay;
+	Animator anim;
 
 	// Use this for initialization
 	void Start () {
-	
+		anim = GetComponent<Animator> ();
 	}
 	
 	// Update is called once per frame
@@ -29,7 +31,9 @@ public class SimpleFlyController : MonoBehaviour {
 	
 	void Dead()
 	{
-		//anim.SetBool ("Hit", true);
-		Destroy (this.gameObject, 1f);
+		anim.SetBool ("Hit", true);
+		Instantiate (deathPlay, transform.position , Quaternion.identity);
+		Destroy (this.gameObject);
+		Destroy (deathPlay);
 	}
 }
