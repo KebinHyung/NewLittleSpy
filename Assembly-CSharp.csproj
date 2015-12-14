@@ -54,12 +54,15 @@
      <Compile Include="Assets\_Scripts\DestroyByTime.cs" />
      <Compile Include="Assets\_Scripts\EnemyMover.cs" />
      <Compile Include="Assets\_Scripts\GameOverAndReset.cs" />
+     <Compile Include="Assets\_Scripts\GamePortal.cs" />
+     <Compile Include="Assets\_Scripts\LevelManager.cs" />
      <Compile Include="Assets\_Scripts\LifeController.cs" />
      <Compile Include="Assets\_Scripts\PlatformFall.cs" />
      <Compile Include="Assets\_Scripts\PlayerController.cs" />
      <Compile Include="Assets\_Scripts\SimpleEnemyScript.cs" />
      <Compile Include="Assets\_Scripts\SimpleFlyController.cs" />
      <Compile Include="Assets\_Scripts\SoulMover.cs" />
+     <Compile Include="Assets\_Scripts\ToMenu.cs" />
      <None Include="Assets\Dungeon\ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />

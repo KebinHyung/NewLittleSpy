@@ -13,21 +13,25 @@ using UnityEngine.UI;
 public class GameOverAndReset : MonoBehaviour {
 
 	public Text resetText;
+	public Text backToMenu;
 
 	// Use this for initialization
 	void Start () {
 		StartCoroutine (Reset ());
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if (Input.GetKeyDown(KeyCode.R)) {
+			Application.LoadLevel("initialMenu");
+		}
 	}
 
 	IEnumerator Reset()
 	{
 		yield return new WaitForSeconds (6f);
-		resetText.enabled = true;
+		backToMenu.text = "Press 'R' to Restart";
 		resetText.text = "Thanks for playing!";
 	}
 }

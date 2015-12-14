@@ -5,6 +5,8 @@ Project("{A8472EFC-6886-11CB-C227-4D5979C113C4}") = "NewLittleSpy", "Assembly-CS
 EndProject
 Project("{A8472EFC-6886-11CB-C227-4D5979C113C4}") = "NewLittleSpy", "Assembly-CSharp-Editor.csproj", "{2C5585CB-96D0-2591-7B44-C3E858099F47}"
 EndProject
+Project("{A8472EFC-6886-11CB-C227-4D5979C113C4}") = "NewLittleSpy", "Assembly-UnityScript.unityproj", "{7EEF7F54-5F37-D2F9-0FD6-4F076F5CACF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,15 @@ Global
 		{2C5585CB-96D0-2591-7B44-C3E858099F47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C5585CB-96D0-2591-7B44-C3E858099F47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C5585CB-96D0-2591-7B44-C3E858099F47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EEF7F54-5F37-D2F9-0FD6-4F076F5CACF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EEF7F54-5F37-D2F9-0FD6-4F076F5CACF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EEF7F54-5F37-D2F9-0FD6-4F076F5CACF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EEF7F54-5F37-D2F9-0FD6-4F076F5CACF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+													GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -42,4 +48,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal

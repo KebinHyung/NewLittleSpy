@@ -44,10 +44,10 @@ public class SimpleEnemyScript : MonoBehaviour {
 		colliding = Physics2D.Linecast (sightStart.position, sightEnd.position);
 		groundAhead = Physics2D.Linecast (groundStart.position, groundEnd.position);
 
-		if (colliding) {
-			transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
-			velocity *= -1;
-		}
+		//if (colliding) {
+		//	transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
+		//	velocity *= -1;
+		//}
 		if (groundAhead == false) {
 			transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
 			velocity *= -1;
@@ -64,6 +64,14 @@ public class SimpleEnemyScript : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D col)
 	{
+		if (colliding && col.gameObject.tag == "Coin") {
+			return;
+		}
+		if (colliding && col.gameObject.tag != "Player" && col.gameObject.tag != "Coin") {
+			transform.localScale = new Vector2(transform.localScale.x * -1, transform.localScale.y);
+			velocity *= -1;
+		}
+
 		if (col.gameObject.tag == "Player") {
 			float height = col.contacts[0].point.y - weakness.position.y;
 			if(height < 0)

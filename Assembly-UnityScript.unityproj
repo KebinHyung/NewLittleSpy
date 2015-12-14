@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{2BC3A88A-7C20-0F27-0708-65337C537A21}</ProjectGuid>
+	<ProjectGuid>{7EEF7F54-5F37-D2F9-0FD6-4F076F5CACF4}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-UnityScript</AssemblyName>
@@ -45,7 +45,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\_Scripts\NewBehaviourScript.js" />
+     <Compile Include="Assets\_Scripts\JSPopUpInstructions.js" />
      <None Include="Assets\Dungeon\ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
@@ -54,6 +54,7 @@
      <None Include="Assets\Tiled2Unity\Imported\DungeonPlatformPack.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
+     <None Include="Assets\Tiled2Unity\Imported\snow.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Imported\PlatformPack.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\License.txt" />
      <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
