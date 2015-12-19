@@ -5,7 +5,7 @@
    <image width="208" height="208" source="Grass_Tile_Corner_Edge_l.png"/>
    <objectgroup draworder="index">
     <object id="0" x="1" y="1" width="204" height="206"/>
-    <object id="0" x="4" y="5" width="200" height="203"/>
+    <object id="0" x="4" y="5" width="236" height="240.333"/>
    </objectgroup>
   </tile>
   <tile id="1">
@@ -15,13 +15,13 @@
    <image width="208" height="208" source="Grass_Tile_Corner_Edge_r.png"/>
    <objectgroup draworder="index">
     <object id="0" x="2" y="1" width="203" height="205"/>
-    <object id="0" x="2" y="5" width="202" height="200"/>
+    <object id="0" x="-36" y="5" width="240" height="240.333"/>
    </objectgroup>
   </tile>
   <tile id="2">
    <image width="208" height="208" source="Grass_Tile_Flat.png"/>
    <objectgroup draworder="index">
-    <object id="0" x="0" y="2" width="207" height="206"/>
+    <object id="0" x="-48" y="2" width="289.333" height="234"/>
    </objectgroup>
   </tile>
   <tile id="3">
@@ -45,13 +45,13 @@
   <tile id="6">
    <image width="208" height="208" source="Grass_Tile_Flat_l.png"/>
    <objectgroup draworder="index">
-    <object id="0" x="2" y="0" width="205" height="207"/>
+    <object id="0" x="2" y="-29.3333" width="232.667" height="264"/>
    </objectgroup>
   </tile>
   <tile id="7">
    <image width="208" height="208" source="Grass_Tile_Flat_r.png"/>
    <objectgroup draworder="index">
-    <object id="0" x="1" y="0" width="204" height="208"/>
+    <object id="0" x="-25.3333" y="-24" width="230.333" height="256"/>
    </objectgroup>
   </tile>
   <tile id="8">
@@ -69,19 +69,19 @@
   <tile id="12">
    <image width="208" height="208" source="Grass_Tile_lower.png"/>
    <objectgroup draworder="index">
-    <object id="0" x="2" y="0" width="206" height="208"/>
+    <object id="0" x="-38.6667" y="-34.6667" width="276" height="274.667"/>
    </objectgroup>
   </tile>
   <tile id="13">
    <image width="208" height="208" source="Grass_Tile_Slope_Connector_l.png"/>
    <objectgroup draworder="index">
-    <object id="0" x="1" y="1" width="206" height="208"/>
+    <object id="0" x="-38.6667" y="1" width="276" height="240.333"/>
    </objectgroup>
   </tile>
   <tile id="14">
    <image width="208" height="208" source="Grass_Tile_Slope_Connector_r.png"/>
    <objectgroup draworder="index">
-    <object id="0" x="-2" y="1" width="210" height="208"/>
+    <object id="0" x="-48" y="1" width="296" height="239"/>
    </objectgroup>
   </tile>
   <tile id="15">
@@ -93,20 +93,20 @@
   <tile id="17">
    <image width="208" height="208" source="Grass_Tile_Corner_Edge_ll.png"/>
    <objectgroup draworder="index">
-    <object id="0" x="0" y="2" width="205" height="204"/>
+    <object id="0" x="0" y="-34.6667" width="232" height="240.667"/>
    </objectgroup>
   </tile>
   <tile id="18">
    <image width="208" height="208" source="Grass_Tile_Corner_Edge_lr.png"/>
    <objectgroup draworder="index">
-    <object id="0" x="-1" y="0" width="206" height="209"/>
+    <object id="0" x="-32" y="-25.3333" width="237" height="234.333"/>
    </objectgroup>
   </tile>
   <tile id="19">
    <image width="208" height="208" source="Grass_Tile_Flat_lower.png"/>
    <objectgroup draworder="index">
     <object id="0" x="0" y="1" width="205" height="204"/>
-    <object id="0" x="1" y="2" width="205" height="204"/>
+    <object id="0" x="-29.3333" y="-25.3333" width="269.333" height="231.333"/>
    </objectgroup>
   </tile>
  </tileset>

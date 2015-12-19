@@ -85,8 +85,9 @@ public class SimpleEnemyScript : MonoBehaviour {
 	void Dead()
 	{
 		anim.SetBool ("Hit", true);
-		Instantiate (deathPlay, transform.position , Quaternion.identity);
-		Destroy (this.gameObject);
-		Destroy (deathPlay);
+		deathPlay = (GameObject) Instantiate (deathPlay, transform.position , Quaternion.identity);
+		//Instantiate (deathPlay, transform.position , Quaternion.identity);
+		Destroy (this.gameObject, 0.2f);
+		Destroy (deathPlay, 0.4f);
 	}
 }

@@ -33,7 +33,7 @@ public class SimpleFlyController : MonoBehaviour {
 	{
 		anim.SetBool ("Hit", true);
 		Instantiate (deathPlay, transform.position , Quaternion.identity);
-		Destroy (this.gameObject);
-		Destroy (deathPlay);
+		Destroy (this.gameObject, 0.2f);
+		Destroy (deathPlay, 0.2f);
 	}
 }

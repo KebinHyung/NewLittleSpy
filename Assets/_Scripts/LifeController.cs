@@ -16,6 +16,12 @@ public class LifeController : MonoBehaviour {
 	public Text restart;
 	public int life;
 	private float activateTime;
+	private LifeController _lifeController;
+
+	void Awake()
+	{
+		DontDestroyOnLoad (this);
+	}
 
 	void OnLevelWasLoaded()
 	{

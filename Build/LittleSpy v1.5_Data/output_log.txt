@@ -1,0 +1,51 @@
+Initialize engine version: 5.2.3f1 (f3d16a1fa2dd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0x116)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Kevin\Google Drive\Semester 3- CenCol\Game Programming\Final Project\NewLittleSpy\Build\LittleSpy v1.5_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Kevin\Google Drive\Semester 3- CenCol\Game Programming\Final Project\NewLittleSpy\Build\LittleSpy v1.5_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Kevin\Google Drive\Semester 3- CenCol\Game Programming\Final Project\NewLittleSpy\Build\LittleSpy v1.5_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Kevin\Google Drive\Semester 3- CenCol\Game Programming\Final Project\NewLittleSpy\Build\LittleSpy v1.5_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Kevin\Google Drive\Semester 3- CenCol\Game Programming\Final Project\NewLittleSpy\Build\LittleSpy v1.5_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Kevin\Google Drive\Semester 3- CenCol\Game Programming\Final Project\NewLittleSpy\Build\LittleSpy v1.5_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Kevin\Google Drive\Semester 3- CenCol\Game Programming\Final Project\NewLittleSpy\Build\LittleSpy v1.5_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Kevin\Google Drive\Semester 3- CenCol\Game Programming\Final Project\NewLittleSpy\Build\LittleSpy v1.5_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Kevin\Google Drive\Semester 3- CenCol\Game Programming\Final Project\NewLittleSpy\Build\LittleSpy v1.5_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Kevin\Google Drive\Semester 3- CenCol\Game Programming\Final Project\NewLittleSpy\Build\LittleSpy v1.5_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Kevin\Google Drive\Semester 3- CenCol\Game Programming\Final Project\NewLittleSpy\Build\LittleSpy v1.5_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.078 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Kevin\Google Drive\Semester 3- CenCol\Game Programming\Final Project\NewLittleSpy\Build\LittleSpy v1.5_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1198 -> priority: 1 
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 62.102474 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1426.
+Total: 1.249858 ms (FindLiveObjects: 0.200352 ms CreateObjectMapping: 0.135204 ms MarkObjects: 0.870572 ms  DeleteObjects: 0.041498 ms)
+
+2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.239571 ms
+
+Unloading 102 unused Assets to reduce memory usage. Loaded Objects now: 1841.
+Total: 0.796500 ms (FindLiveObjects: 0.099506 ms CreateObjectMapping: 0.085673 ms MarkObjects: 0.452465 ms  DeleteObjects: 0.157961 ms)
+
+3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
